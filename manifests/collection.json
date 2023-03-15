@@ -5,9 +5,5 @@
   },
   "type" : "Collection",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
-  "items" : [ {
-    "@type" : "sc:Manifest",
-    "@id" : "https://Richel325.github.io/SheridanTest/manifests/stefanssonimages.json",
-    "label" : "[Click to edit label]"
-  } ]
+  "items" : [ ]
 }
