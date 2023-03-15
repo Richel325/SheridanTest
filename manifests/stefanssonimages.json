@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Richel325.github.io/SheridanTest/manifests/stefanssonimages.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://61766183-465a-4a9f-a041-28c4433d0675",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://91cc93f1-573d-4e68-a0cc-d87fc63afcfa",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 2346,
+      "width" : 3235,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://f02c5c85-9fd9-4f8a-b462-42a492d23c33",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://richel325.github.io/stefanssonmodel/images/stem229_002-27-28-f/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://richel325.github.io/stefanssonmodel/images/stem229_002-27-28-f",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 2346,
+          "width" : 3235
+        },
+        "on" : "http://91cc93f1-573d-4e68-a0cc-d87fc63afcfa"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
